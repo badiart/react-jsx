@@ -1,24 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
-
+import './style.css';
+import image1 from './butterfly.png';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>
+      <div style={{borderSolid:'1px black',maxWidth:'100vw'}}>
+
+<h1 className="titlered">badiaa rtimi</h1>
+
+<img  className="hi" src={image1 }/>
+
+<img className="happy" src="/show.png"/>
+
+</div>
+
+<video width="1500" height="240" controls>
+
+<source src="/hello.mp4" type="video/mp4" />
+
+</video>
+</div>
   );
 }
 

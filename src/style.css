@@ -1,0 +1,22 @@
+
+.titlered{
+    color:crimson;
+    text-align: center;
+    padding: 40px;
+  font-family: Arial;
+  background-color: #282c34;
+  size: 300px;
+
+}
+.hi{
+    position: relative;
+  left: 30px;
+  border: 3px solid #73AD21;
+  size: 300 px;
+}
+.happy{
+    margin: top 100px;;
+    position: relative;
+  left: 500px;
+  border: 3px solid #73AD21;
+}
